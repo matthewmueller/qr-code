@@ -3,6 +3,8 @@
 
   Generate QR codes. Based on Kazuhiko Arase's [implementation](http://d-project.googlecode.com/svn/trunk/misc/qrcode/js/).
 
+  ![QR](http://f.cl.ly/items/0j3i0w2L0P3Q1C420X1n/Screen%20Shot%202013-05-02%20at%209.39.18%20PM.png)
+
 ## Installation
 
     $ component install matthewmueller/qr-code
