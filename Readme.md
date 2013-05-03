@@ -1,4 +1,3 @@
-
 # qr-code
 
   Generate QR codes. Based on Kazuhiko Arase's [implementation](http://d-project.googlecode.com/svn/trunk/misc/qrcode/js/).
@@ -29,6 +28,10 @@ Create a QR code containing the given `text`. The result is a dataURI that you c
 - level: Backup level. See [QR code error correction](http://www.qrstuff.com/blog/2011/12/14/qr-code-error-correction). Defaults to `M`
 - size: Size of the QR code. Defaults to `4`.
 - margin: Whitespace around the outside of the image. Defaults to `0`.
+
+## TODO
+
+- `size` should be based on pixels not some arbitrary number.
 
 ## License
 
