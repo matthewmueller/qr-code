@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>qr-code component</title>
+</head>
+<body>
+  <h1>qr-code component</h1>
+  <script src="../build/build.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var qr = require('qr-code');
+
+    var data = qr('hello zomg!');
+    var img = new Image();
+    img.src = data;
+    document.body.appendChild(img);
+  </script>
+</body>
+</html>
